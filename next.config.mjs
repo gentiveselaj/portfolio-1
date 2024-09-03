@@ -10,7 +10,7 @@ export default withSentryConfig(
 
     // Suppresses source map uploading logs during build
     silent: true,
-    org: "gent",
+    org: "javascript-mastery",
     project: "javascript-nextjs",
   },
   {
