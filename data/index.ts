@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech enthusiast with a passion for building things from scratch.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building News Application for iOS and Android",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,34 +72,34 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "E-baa",
+    des: "E-commerce website with CMS built with Laravel",
+    img: "/ebaaa.png",
+    iconLists: ["/html.png","css.png","icons8-jquery-30.png","/icons8-javascript-30.svg", "/bootstrap.png", "/icons8-laravel-30.png", "/icons8-php-30.png"],
+    link: "https://e-baa.com/new/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    title: "Arbresh.info - News",
+    des: "A News App built with Ionic Framework for iOS and Android.",
+    img: "/arbreshinfomain.png",
+    iconLists: ["/ionic.png","/html.png","/angular.png",  "/ts.svg", ],
     link: "/ui.yoom.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    title: "Burim Zogaj SA ",
+    des: "Website design and development for a construction company based in Switzerland",
+    img: "/burimzogaj.png",
+    iconLists: ["/html.png","css.png","/icons8-javascript-30.svg","icons8-jquery-30.png", "/bootstrap.png","/icons8-php-30.png"],
     link: "/ui.aiimg.com",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
+    title: "News Consulting Agency",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    img: "/newsconsulting.png",
+    iconLists: ["/html.png","css.png","/icons8-javascript-30.svg","icons8-jquery-30.png", "/bootstrap.png"],
     link: "/ui.apple.com",
   },
 ];
@@ -107,34 +107,23 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Genti was a pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. He designed and developed the website for my construction company exactly the way i had in mind. I highly recommend him",
+    name: "Burim Zogaj",
+    title: "Director @ Burim Zogaj SA",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "As a senior developer, I had the pleasure of working closely with Genti for 4 years, and I highly recommend him to any company seeking top-tier talent. He consistently demonstrated strong technical skills, a proactive approach to problem-solving, and a commitment to delivering high-quality code. Beyond his technical expertise, Genti is a great team player, always willing to collaborate and mentor others. His work ethic and ability to adapt to challenges make him a valuable asset to any development team.",
+    name: "Alban Hetemi ",
+    title: "Head of Development @ ElkosGroup",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+      "As a client, I had the privilege of working with Genti on our App for Arbresh.info, and I was thoroughly impressed with his skills and professionalism. He consistently exceeded our expectations, delivering exceptional results on time and with great attention to detail. Genti’s innovative solutions and clear communication made him an invaluable partner. I highly recommend him to any company seeking a talented and reliable developer.",
+    name: "Bleriant Syla  ",
+    title: "Project Coordinator @ Arbresh.info",
+  }
+  
 ];
 
 export const companies = [
@@ -173,29 +162,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Developer Intern",
+    desc: "Assisted in the development of websites for companies under the umbrella of Elkos Group .",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Mobile App Dev ",
+    desc: "Designed and developed a news mobile app for both iOS & Android platforms using Ionic Framework.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Web Dev Projects",
+    desc: "Designed and developed several websites for various clients, enhancing their online presence",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Lead  Developer",
+    desc: "Overseeing technical development, guiding the development team, and ensuring project success through code quality, innovation, and alignment with company goals",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +194,12 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link:"https://github.com/gentiveselaj/"
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
+
   {
     id: 3,
     img: "/link.svg",
+    link:"https://www.linkedin.com/in/genti-veselaj-404b61172/"
   },
 ];
