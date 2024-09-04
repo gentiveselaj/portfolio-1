@@ -119,11 +119,10 @@ export const testimonials = [
   },
   {
     quote:
-<<<<<<< HEAD
+
       "As a client, I had the privilege of working with Genti on our App for Arbresh.info, and I was thoroughly impressed with his skills and professionalism. He consistently exceeded our expectations, delivering exceptional results on time and with great attention to detail. Genti’s innovative solutions and clear communication made him an invaluable partner. I highly recommend him to any company seeking a talented and reliable developer.",
-=======
-      "As a client, I had the privilege of working with Genti on our App for Arbresh.info, and I was thoroughly impressed with his skills and professionalism. He consistently exceeded our expectations, delivering exceptional results on time and with great attention to detail. Gentis innovative solutions and clear communication made him an invaluable partner. I highly recommend him to any company seeking a talented and reliable developer.",
->>>>>>> ec4fa95969ac45f0e61d33ec8d1e6d73f280a837
+
+
     name: "Bleriant Syla  ",
     title: "Project Coordinator @ Arbresh.info",
   }
