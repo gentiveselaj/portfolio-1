@@ -59,7 +59,7 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Genti, a  Developer based in Kosovo.
           </p>
-          <p>If you have something in mind let's talk.</p>
+          <p>If you have something in mind let us talk.</p>
 
           <a href="#about">
             <MagicButton
