@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 
 import Head from "next/head";
@@ -77,3 +78,28 @@ export default function Page() {
     </div>
   );
 }
+=======
+
+
+
+"use client";
+
+import * as Sentry from "@sentry/nextjs";
+import Error from "next/error";
+import { useEffect } from "react";
+
+export default function GlobalError({ error }) {
+  useEffect(() => {
+    Sentry.captureException(error);
+  }, [error]);
+
+  return (
+    <html>
+      <body>
+        <Error />
+      </body>
+    </html>
+  );
+}
+
+>>>>>>> ec4fa95969ac45f0e61d33ec8d1e6d73f280a837

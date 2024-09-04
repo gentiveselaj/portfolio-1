@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { withSentryConfig } from "@sentry/nextjs";
 /** @type {import('next').NextConfig} */
 const nextConfig = {};
@@ -42,3 +43,6 @@ export default withSentryConfig(
     automaticVercelMonitors: true,
   }
 );
+=======
+
+>>>>>>> ec4fa95969ac45f0e61d33ec8d1e6d73f280a837
