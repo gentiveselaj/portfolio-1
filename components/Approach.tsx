@@ -15,9 +15,7 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="At this stage, I focus on understanding the bigger picture—whether that’s the user needs, the technical limitations, or the creative possibilities. I ask a lot of questions and often research different frameworks, trends, or comparable solutions. My goal here is to define a clear direction and make sure I’m solving the right problem before jumping into execution."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -28,9 +26,7 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="This is where I start building—whether it's drafting layouts, writing content, sketching flows, or experimenting with structure. I work iteratively, trying things out, refining based on feedback, and staying open to change. I usually ask for input or bounce ideas back and forth to see how they hold up from different perspectives."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -50,9 +46,7 @@ const Approach = () => {
         <Card
           title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="I polish the work—tightening up the visuals, refining the language, and making sure everything aligns with the original intent and goals. I pay close attention to details, whether that means performance, usability, tone, or consistency."
         >
           <CanvasRevealEffect
             animationSpeed={3}

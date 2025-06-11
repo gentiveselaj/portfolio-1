@@ -8,12 +8,12 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I approach every project with clarity, creativity, and care—because great work begins with listening, and lasting relationships are built on trust.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "https://imockups.com/storage/product/4751/Oo1YeNPwsLzZ0vZUqker.png",
     spareImg: "",
   },
   {
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for building things from scratch.",
+    title: "skilled web developer who specializes in building clean, secure, and user-focused applications with a strong emphasis on custom functionality, efficient workflows, and modern web technologies.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building News Application for iOS and Android",
+    title: "Currently building a Content Generator Application with the help of AI",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -132,41 +132,74 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Laravel",
+    img: "https://www.thisprogrammingthing.com/assets/headers/laravel@400.png",
+ 
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
+    name: "js",
+    img: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
     nameImg: "/appName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
+    name: "php",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png",
     nameImg: "/hostName.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
+    name: "angular",
+    img: "https://platri.de/wp-content/uploads/2024/01/Angular-Framework-e1649312852136.png",
     nameImg: "/streamName.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
+    name: "typescript.",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/1200px-Typescript.svg.png",
     nameImg: "/dockerName.svg",
   },
+
+
+  {
+    id: 6,
+    name: "tailwinds.",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVgHWDyjwN9qZsPChFzc5PRfOOOqbfgXqR3w&s",
+    nameImg: "/dockerName.svg",
+  },
+
+
+  {
+    id: 7,
+    name: "nextjs.",
+    img: "https://raw.githubusercontent.com/github/explore/2ebcebd7b163b2ab12cb5a40bf29264799c81c03/topics/nextjs/nextjs.png",
+    nameImg: "/dockerName.svg",
+  },
+
+  {
+    id: 8,
+    name: "ionic.",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ionic-logo-landscape.svg/1200px-Ionic-logo-landscape.svg.png",
+    nameImg: "/dockerName.svg",
+  },
+
+  {
+    id: 9,
+    name: "bootstrap.",
+    img: "https://logowik.com/content/uploads/images/bootstrap-new725.logowik.com.webp",
+    nameImg: "/dockerName.svg",
+  },
+
+
+  
 ];
 
 export const workExperience = [
   {
     id: 1,
     title: "Frontend Developer Intern",
-    desc: "Assisted in the development of websites for companies under the umbrella of Elkos Group .",
+    desc: "Assisted in the development of websites and applications for companies under the umbrella of Elkos Group .",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
